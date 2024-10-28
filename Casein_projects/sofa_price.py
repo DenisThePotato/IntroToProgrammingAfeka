@@ -1,0 +1,5 @@
+cost = int(input("Desired furniture cost: "))
+weight = int(input("Desired furniture weight: "))
+distance = int(input("Distance from shop (km): "))
+floor = int(input("Floor number: "))
+print(f"Total cost: {cost * 1.1 + distance * 5 + floor * weight}.")
